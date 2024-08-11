@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KeemKonnect Pharmacy Drug Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="receipt">
+    <h2>KeemKonnect Pharmacy Drug Store</h2>
+    <p>Address: Ayobo, Alimosho Lagos State</p>
+    <p>Date: 11-08-2024</p>
+    <p>Time: 15:00pm</p>
+
+    <table id="items">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        </tbody>
+    </table>
+
+    <p>Total: <span id="total">$0.00</span></p>
+    <p>Cash Paid: <input type="number" id="cashPaid"></p>
+    <p>Change: <span id="change">$0.00</span></p>
+
+    <button onclick="calculateChange()">Calculate Change</button>
+
+    <div class="feedback">
+      <h3>Customer Feedback</h3>
+      <textarea id="review"></textarea>
+      <button onclick="submitFeedback()">Submit</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

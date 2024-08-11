@@ -1,0 +1,16 @@
+.receipt {
+  border: 1px solid black;
+  padding: 20px;
+  width: 300px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
